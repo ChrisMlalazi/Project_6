@@ -1,0 +1,70 @@
+ 
+ header nav {
+        padding-bottom: 50px;
+        text-align: left;
+      }
+
+  header nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+
+  .layer{
+       height: 14px;
+       padding-right: 5px;
+      }
+  
+  a {
+      text-decoration: none;
+      color: #39add1;
+      font-weight: 700;
+      transition: .6s ease-out;
+
+      }
+
+  a:hover {
+    color: #BA8058;
+   
+  }
+    
+  a .st0  {
+      transition: .4s ease-out;
+    }
+    
+  a:hover .st0{
+        fill: #BA8058;
+         
+  }
+
+
+
+/************** 
+Headers 
+***************/
+
+  header h1 {
+      line-height: 1em;
+  }
+
+  header {
+     padding-top: 10px;
+  }
+ 
+  .header1 {
+      display: none;
+      color: #BA8058;
+    }
+
+.logo {
+  width: 160px;  
+}
+
+
+p {
+    max-width: 350px;
+    margin: 35px auto 0;
+    line-height: 2em;
+    text-align: left;
+
+  }
+   

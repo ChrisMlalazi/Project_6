@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: url("../svgs/background.svg") repeat #edeff0;
+  background-size: 50px 50px; }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto; }
+
+/*********** Main ****************/
+main {
+  padding-top: 50px; }
+
+main h2 {
+  font-size: 28px; }
+
+main ul li {
+  padding: 0;
+  width: 150px; }
+
+main li {
+  display: inline-block;
+  color: #ba8058;
+  margin-right: 20px; }
+
+main li img {
+  margin-bottom: 15px; }
+
+main li span {
+  margin-left: -40px; }
+
+main li:last-child {
+  margin-right: 0; }
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058; }
+
+header nav {
+  padding-bottom: 50px;
+  text-align: left; }
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px; }
+
+.layer {
+  height: 14px;
+  padding-right: 5px; }
+
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+  transition: .6s ease-out; }
+
+a:hover {
+  color: #BA8058; }
+
+a .st0 {
+  transition: .4s ease-out; }
+
+a:hover .st0 {
+  fill: #BA8058; }
+
+/************** 
+Headers 
+***************/
+header h1 {
+  line-height: 1em; }
+
+header {
+  padding-top: 10px; }
+
+.header1 {
+  display: none;
+  color: #BA8058; }
+
+.logo {
+  width: 160px; }
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left; }
+
+footer p {
+  text-align: center;
+  margin-top: -50px; }
+
+.logo,
+#st0 {
+  transition: .2s ease-out; }
+
+#st0 {
+  fill: #BA8058;
+  stroke: #39add1; }
+
+.st1 {
+  fill: #EAAA7F; }
+
+.paw {
+  fill: #F4C6A6;
+  transition: transform 1s ease-out;
+  transform-origin: 50% 50%; }
+
+.logo:hover .paw {
+  transform: rotate(40deg) scale(0.9); }
+
+/************* Dogs **************/
+.st00,
+.st03,
+.st31,
+.st32 {
+  fill: #BA8058; }
+
+.st10,
+.st11,
+.st12,
+.st23 {
+  fill: #FBFEFF;
+  transition: transform .5s ease-out;
+  transform-origin: 50% 50%; }
+
+.layer_1 {
+  transition: transform 1s ease-out;
+  transform-origin: 50% 50%; }
+
+.layer_1:hover {
+  transform: rotate(20deg) scale(1.1); }
+
+.st10:hover {
+  fill: #EAAA7F; }
+
+.st11:hover {
+  fill: #EAAA7F; }
+
+.st12:hover {
+  fill: #EAAA7F; }
+
+.st23:hover {
+  fill: #EAAA7F; }
+
+.st20,
+.st21,
+.st22,
+.st33 {
+  fill: #2D3339; }
+
+.st30 {
+  fill: #EAAA7F; }
+
+.st01,
+.st02 {
+  fill: #844B24; }
+
+.st13 {
+  fill: #52595F; }
+
+/*# sourceMappingURL=application.css.map */
