@@ -49,12 +49,6 @@ footer {
   padding-bottom: 30px;
   color: #ba8058; }
 
-@media (max-width: 420px) {
-  .st1 {
-    display: none; }
-
-  .header1 {
-    display: block; } }
 header nav {
   padding-bottom: 50px;
   text-align: left; }
@@ -108,6 +102,12 @@ footer p {
   text-align: center;
   margin-top: -50px; }
 
+@media (max-width: 420px) {
+  .st1 {
+    display: none; }
+
+  .header1 {
+    display: block; } }
 .logo,
 #st0 {
   transition: .2s ease-out; }
