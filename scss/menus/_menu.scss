@@ -31,9 +31,9 @@
  a{
 
  & {
+     @include text( $weight: 700);
       text-decoration: none;
       color: $color_2;
-      font-weight: 700;
       transition: .6s ease-out;
 
       }
@@ -57,13 +57,16 @@
  
   .header1 {
       display: none;
+
+      @media #{$brk-narrow} {
+        display: block;
+      }
     }
 
 p {
+    @include text($l-height: 2em);
     max-width: 350px;
     margin: 35px auto 0;
-    line-height: 2em;
     text-align: left;
-
   }
    

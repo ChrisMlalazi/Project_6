@@ -2,10 +2,10 @@
 footer {
 
  & {
+      @include text($color: $color_1);
       width: 100%;
       margin-top: 100px;
       padding-bottom: 30px;
-      color: $color_1;
     }
     
 & p{
@@ -17,15 +17,12 @@ footer {
 
 .st1{
   fill: $color_7;
+  
+  @media #{$brk-narrow} {
+   display: none;
+
+  }
+
 }
 
-   @media (max-width: 420px)  {
-
-     .st1 {
-      display: none;
-    }
-  
-    .header1 {
-      display: block;
-    }
- }
+ 

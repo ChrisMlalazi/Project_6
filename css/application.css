@@ -1,10 +1,10 @@
 body {
+  font-weight: 300;
+  color: #2D3339;
   margin: 0;
   padding: 0;
   text-align: center;
   font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-  color: #2D3339;
   background: url("../svgs/background.svg") repeat #edeff0;
   background-size: 50px 50px; }
 
@@ -49,9 +49,9 @@ header {
   padding-right: 5px; }
 
 a {
+  font-weight: 700;
   text-decoration: none;
   color: #39add1;
-  font-weight: 700;
   transition: .6s ease-out; }
 a:hover {
   color: #BA8058; }
@@ -62,31 +62,31 @@ a:hover .st0 {
 
 .header1 {
   display: none; }
+  @media (max-width: 420px) {
+    .header1 {
+      display: block; } }
 
 p {
+  line-height: 2em;
   max-width: 350px;
   margin: 35px auto 0;
-  line-height: 2em;
   text-align: left; }
 
 footer {
+  color: #BA8058;
   width: 100%;
   margin-top: 100px;
-  padding-bottom: 30px;
-  color: #BA8058; }
+  padding-bottom: 30px; }
 footer p {
   text-align: center;
   margin-top: -50px; }
 
 .st1 {
   fill: #EAAA7F; }
+  @media (max-width: 420px) {
+    .st1 {
+      display: none; } }
 
-@media (max-width: 420px) {
-  .st1 {
-    display: none; }
-
-  .header1 {
-    display: block; } }
 #st0 .logo, #st0 {
   transition: .2s ease-out; }
 #st0 {
