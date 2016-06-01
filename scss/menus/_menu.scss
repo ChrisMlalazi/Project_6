@@ -32,14 +32,14 @@
 
  & {
       text-decoration: none;
-      color: #39add1;
+      color: $color_2;
       font-weight: 700;
       transition: .6s ease-out;
 
       }
 
   &:hover {
-    color: #BA8058;
+    color: $color_1;
    
   }
     
@@ -48,18 +48,15 @@
     }
     
   &:hover .st0{
-        fill: #BA8058;
+        fill: $color_1;
          
   }
 
  }
 
  
-
- 
   .header1 {
       display: none;
-      color: #BA8058;
     }
 
 p {

@@ -7,21 +7,21 @@
 
 
     & {
-      fill:#BA8058;
-      stroke: #39add1;
+      fill:$color_1;
+      stroke: $color_2;
 
     }
 
 }
 
 .logo {
-  width: 160px;  
+  width: 140px;  
 }
 
 .paw {
 
   &{
-  fill: #F4C6A6;
+  fill: $color_3  ;
   transition: transform 1s ease-out;
   transform-origin: 50% 50%;
 }
@@ -41,18 +41,18 @@
 .st00,
 .st03,
 .st32{
-  fill:#BA8058;
+  fill:$color_1;
 }
 
 .st31{
-  fill: #F4C6A6;
+  fill: $color_3  ;
 }
 
 .st10,
 .st11,
 .st12,
 .st23{
-  fill:#FBFEFF;
+  fill:$color_4;
    transition: transform .5s ease-out;
   transform-origin: 50% 50%;
 }
@@ -61,7 +61,7 @@
 .st11:hover,
 .st12:hover,
 .st23:hover{
-  fill: #f5deb3;
+  fill: $color_5;
 }
  
  .layer_1 {
@@ -69,28 +69,29 @@
   transform-origin: 50% 50%;
  }
 
+
 .layer_1:hover {
-  transform: rotate(20deg) scale(1.1);
+  transform: rotate(20deg) scale(1.0);
 }
 
 .st20,
 .st21,
 .st22,
 .st33{
-  fill:#2D3339;
+  fill:$color_6;
 }
 
 .st30,
 .st01{
-  fill:#EAAA7F;
+  fill:$color_7;
 }
 
 
 .st02{
-  fill:#844B24;
+  fill:$color_8;
 }
 
                                       
 .st13{
-  fill:#52595F;
+  fill:$color_9;
 }

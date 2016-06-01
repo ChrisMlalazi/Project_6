@@ -4,13 +4,13 @@ body {
   text-align: center;
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
-  color: #111;
+  color: #2D3339;
   background: url("../svgs/background.svg") repeat #edeff0;
   background-size: 50px 50px; }
 
 #container {
   max-width: 960px;
-  background: #fffff0;
+  background: #FFFFF0;
   margin: 0 auto; }
 
 /*********** Main ****************/
@@ -23,8 +23,9 @@ main ul li {
   width: 150px; }
 main li {
   display: inline-block;
-  color: #ba8058;
-  margin-right: 20px; }
+  color: #BA8058;
+  margin-right: 20px;
+  margin-bottom: 30px; }
 main li img {
   margin-bottom: 15px; }
 main li span {
@@ -60,8 +61,7 @@ a:hover .st0 {
   fill: #BA8058; }
 
 .header1 {
-  display: none;
-  color: #BA8058; }
+  display: none; }
 
 p {
   max-width: 350px;
@@ -73,10 +73,13 @@ footer {
   width: 100%;
   margin-top: 100px;
   padding-bottom: 30px;
-  color: #ba8058; }
+  color: #BA8058; }
 footer p {
   text-align: center;
   margin-top: -50px; }
+
+.st1 {
+  fill: #EAAA7F; }
 
 @media (max-width: 420px) {
   .st1 {
@@ -91,7 +94,7 @@ footer p {
   stroke: #39add1; }
 
 .logo {
-  width: 160px; }
+  width: 140px; }
 
 .paw {
   fill: #F4C6A6;
@@ -128,7 +131,7 @@ footer p {
   transform-origin: 50% 50%; }
 
 .layer_1:hover {
-  transform: rotate(20deg) scale(1.1); }
+  transform: rotate(20deg) scale(1); }
 
 .st20,
 .st21,
