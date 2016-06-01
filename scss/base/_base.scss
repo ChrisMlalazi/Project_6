@@ -9,59 +9,53 @@ body {
   background-size: 50px 50px; 
 }
 
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 #container {
   max-width: 960px;
-  background: #fff;
+  background:   #fffff0;
   margin: 0 auto;
 }
 
 /*********** Main ****************/
 
 main {
+   
+  & {
     padding-top: 50px;
   }
 
-main h2 {
+& h2 {
       font-size: 28px;
    }
 
-main ul li {
+& ul li {
       padding: 0;
       width: 150px;
       
     }
 
-main li {
+& li {
       display: inline-block;
       color: #ba8058;
       margin-right: 20px;
     }
 
-main li img {
+& li img {
         margin-bottom: 15px;
 
       }
 
-main li span {
+& li span {
         margin-left: -40px;
       }
 
-main li:last-child {
+& li:last-child {
         margin-right: 0;
-      }
+      } 
 
-footer {
-      width: 100%;
-      margin-top: 100px;
-      padding-bottom: 30px;
-      color: #ba8058;
-    }
+}
+
+
+
+
 
    

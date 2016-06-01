@@ -1,31 +1,36 @@
+#st0{  
+    .logo,
+     & {
+          transition: .2s ease-out;
+         
+        }
 
- .logo,
- #st0 {
-      transition: .2s ease-out;
-     
+
+    & {
+      fill:#BA8058;
+      stroke: #39add1;
+
     }
 
-
-#st0{
-  fill:#BA8058;
-  stroke: #39add1;
-
 }
 
-
-.st1{
-  fill:#EAAA7F;
+.logo {
+  width: 160px;  
 }
 
-.paw{
+.paw {
+
+  &{
   fill: #F4C6A6;
   transition: transform 1s ease-out;
   transform-origin: 50% 50%;
 }
 
 
- .logo:hover .paw{
+ .logo:hover &{
   transform: rotate(40deg) scale(0.9);
+}
+
 }
 
 
@@ -35,9 +40,12 @@
 
 .st00,
 .st03,
-.st31,
 .st32{
   fill:#BA8058;
+}
+
+.st31{
+  fill: #F4C6A6;
 }
 
 .st10,
@@ -48,6 +56,13 @@
    transition: transform .5s ease-out;
   transform-origin: 50% 50%;
 }
+
+.st10:hover,
+.st11:hover,
+.st12:hover,
+.st23:hover{
+  fill: #f5deb3;
+}
  
  .layer_1 {
   transition: transform 1s ease-out;
@@ -57,22 +72,6 @@
 .layer_1:hover {
   transform: rotate(20deg) scale(1.1);
 }
-
-.st10:hover{
-  fill: #EAAA7F;
-}
-
-.st11:hover{
-  fill:#EAAA7F;
-}
-.st12:hover{
-  fill:#EAAA7F;
-}
-
-.st23:hover{
-  fill:#EAAA7F;
-}
-
 
 .st20,
 .st21,
@@ -85,6 +84,7 @@
 .st01{
   fill:#EAAA7F;
 }
+
 
 .st02{
   fill:#844B24;

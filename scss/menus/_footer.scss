@@ -1,8 +1,23 @@
 
-footer p{
+footer {
+
+ & {
+      width: 100%;
+      margin-top: 100px;
+      padding-bottom: 30px;
+      color: #ba8058;
+    }
+    
+& p{
   text-align: center;
   margin-top: -50px;
 }
+
+}
+
+
+
+
 
 
    @media (max-width: 420px)  {
